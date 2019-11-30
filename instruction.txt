@@ -1,0 +1,7 @@
+// this is used to record git instructions
+git //检查是否安装了git
+git config --global user.name "your name"
+git config --global user.email "email@example.com" //账户信息
+mkdir //创建文件夹
+cd // 进入文件夹
+pwd //显示当前目录
