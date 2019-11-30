@@ -5,3 +5,29 @@ git config --global user.email "email@example.com" //账户信息
 mkdir //创建文件夹
 cd // 进入文件夹
 pwd //显示当前目录
+git init //初始化库
+git add <file>//添加文件(可以多个文件 )
+git commit -m "message"//提交文件
+git status//状态
+git diff <file>//检查异同
+git log//查看提交历史
+git reflog//查看历史命令
+git log --pretty=oneline//简洁提交历史
+git reset --hard HEAD^//回退到上一个版本 HEAD^^上上个版本 HEAD~100前一百个版本
+git reset --hard <版本号>//回退到特定版本
+//add 了什么就 commit 什么 ，可以多次add 最后一起commit
+git checkout -- file //撤销工作区修改
+git reset HEAD file //可以撤销add操作
+rm file //删除
+git rm file//删除库中的记录
+git checkout -- file //误删撤回，源文件要存在才行
+ssh-keygen -t rsa -C "youremail@example.com"//创建SSH key
+//id_rsa 私钥 id_rsa.pub 公钥
+git remote add origin git@github.com:littleerictu/(库名称).git
+git remote add origin http://..... //远程连接库
+git remote -v //检查远程库信息
+git remote rm origin//删除创建的远程库
+git push -u origin master
+git push origin master//推送至Github
+git clone git@github.com:(name)/(repo).git//克隆远程库
+ls //显示当前目录下文件
