@@ -31,3 +31,6 @@ git push -u origin master
 git push origin master//推送至Github
 git clone git@github.com:(name)/(repo).git//克隆远程库
 ls //显示当前目录下文件
+
+//截止到分支
+//了解更多 https://www.liaoxuefeng.com/wiki/896043488029600/900003767775424
